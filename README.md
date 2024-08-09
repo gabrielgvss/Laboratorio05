@@ -29,9 +29,7 @@ Atualmente, o projeto está na fase de modelagem das entidades. Os relacionament
 ## Próximos Passos
 
 - **Teste dos Relacionamentos**: Verificar e validar os relacionamentos entre as entidades.
-- **Implementação das Regras de Negócio**: Desenvolver a lógica de negócio para operações de frete.
-- **Configuração e Persistência**: Configurar o Hibernate para persistência dos dados.
-- **Desenvolvimento da Interface de Usuário**: Criar uma interface para interação com o sistema.
+- **Criação de Repositories e Services**: Implementar a camada de acesso a dados e serviços de negócio.
 
 ## Instruções de Uso
 
