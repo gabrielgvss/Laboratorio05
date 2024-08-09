@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ce531e-1fe5-4195-a6d3-aa5d8d71113b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/CategoriaFrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Cidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Dependente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Distancia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/EntidadeBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Filial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Frete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/ItemFrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/TipoVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/testes/TesteEntities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sistema-de-avaliacao-de-Portais-da-Transparencia-master-main/.idea/Sistema-de-avaliacao-de-Portais-da-Transparencia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sana_desktop_lp3_copia/sana/.idea/Sistema-de-avaliacao-de-Portais-da-Transparencia.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kQUpOx8xUetrd4qJf0RXADOiyE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gabri/OneDrive/Desktop/Lab05",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/gabri/OneDrive/Desktop/Laboratorio05/src/main/java/com/projetoLBD/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.projetoLBD.entity" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97ce531e-1fe5-4195-a6d3-aa5d8d71113b" name="Changes" comment="" />
+      <created>1723215476526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723215476526</updated>
+      <workItem from="1723215477579" duration="8924000" />
+      <workItem from="1723229477090" duration="139000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/projetoLBD/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
