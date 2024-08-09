@@ -2,7 +2,9 @@
 
 ## Descrição
 
-Este projeto é uma atividade avaliativa para o Laboratório de Banco de Dados, desenvolvido utilizando JPA (Java Persistence API) e Hibernate para mapeamento objeto-relacional. O sistema é projetado para gerenciar operações de frete e inclui a modelagem e estruturação das principais entidades.
+Este projeto é uma atividade avaliativa para o Laboratório de Banco de Dados, desenvolvido utilizando JPA (Java Persistence API) e Hibernate para mapeamento objeto-relacional. O sistema é projetado para gerenciar operações de frete e inclui a modelagem e estruturação das principais entidades, assim como desenvolvimento de seus repositórios e serviços.
+
+![Diagrama de Classes do Projeto](https://github.com/gabrielgvss/Laboratorio05/blob/main/img_lab05.jpg)
 
 ## Entidades e Relacionamentos
 
