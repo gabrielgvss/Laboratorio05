@@ -2,6 +2,7 @@ package com.projetoLBD.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Table (name = "pessoa_fisica")
 @Entity
@@ -15,5 +16,8 @@ public @Data abstract class PessoaFisica implements EntidadeBase{
 
     @Column(nullable = false)
     private String cpf;
+
+    @Column
+    private String email;
 
 }

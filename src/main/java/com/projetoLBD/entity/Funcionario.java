@@ -3,22 +3,23 @@ package com.projetoLBD.entity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@AllArgsConstructor  @NoArgsConstructor
-@Table (name = "funcionario")
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 @Entity
-public @Data class Funcionario extends PessoaFisica {
-    @ManyToOne @JoinColumn(name="id_filial")
-    private Filial filial;
-
-    @Column (nullable = false)
+@Table(name = "funcionario")
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+public class Funcionario extends PessoaFisica {
+    @Column(length = 20, nullable = false)
     private String matricula;
 
-    @OneToMany (mappedBy = "funcionario", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Set<Dependente> dependentes = new HashSet<>();
-
+    @ManyToOne
+    @JoinColumn(name = "filial_id")
+    private Filial filial;
 }
