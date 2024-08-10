@@ -7,12 +7,6 @@
     <list default="true" id="97ce531e-1fe5-4195-a6d3-aa5d8d71113b" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Sistema-de-avaliacao-de-Portais-da-Transparencia-master-main/.idea/Sistema-de-avaliacao-de-Portais-da-Transparencia.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sana_desktop_lp3_copia/sana/.idea/Sistema-de-avaliacao-de-Portais-da-Transparencia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetoLBD/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Filial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Filial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/PessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/entity/PessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/projetoLBD/testes/TesteEntities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/projetoLBD/testes/TesteEntities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,7 @@
       <updated>1723215476526</updated>
       <workItem from="1723215477579" duration="8924000" />
       <workItem from="1723229477090" duration="139000" />
-      <workItem from="1723290759653" duration="4125000" />
+      <workItem from="1723290759653" duration="4507000" />
     </task>
     <servers />
   </component>
