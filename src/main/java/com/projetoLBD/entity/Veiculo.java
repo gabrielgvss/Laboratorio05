@@ -20,8 +20,8 @@ public @Data class Veiculo implements EntidadeBase {
     @ManyToOne @JoinColumn(name = "id_tipo_veiculo")
     private TipoVeiculo tipoVeiculo;
 
-    @Column (nullable = false)
-    private String placa;
+    @Column (name = "numero_placa", nullable = false)
+    private String numeroPlaca;
 
     @OneToMany(mappedBy = "veiculo")
     private Set<Frete> fretes = new HashSet<>();

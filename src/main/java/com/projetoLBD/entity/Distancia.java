@@ -6,8 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-import java.util.HashSet;
-import java.util.Set;
 
 @AllArgsConstructor @NoArgsConstructor
 @Table (name="distancia")
@@ -24,10 +22,7 @@ public @Data class Distancia implements EntidadeBase {
     @JoinColumn(name = "id_cidade_destino")
     private Cidade cidadeDestino;
 
-    @Column (name = "km_rodados")
-    private Integer kmRodados;
-
-    @Column (name = "adicional_km_rodado")
-    private BigDecimal adicionalKmRodado;
+    @Column
+    private Integer quilometros;
 
 }

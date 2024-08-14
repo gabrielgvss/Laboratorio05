@@ -21,8 +21,8 @@ public @Data class CategoriaFrete implements EntidadeBase {
     @Column(nullable = false)
     private String descricao;
 
-    @Column
-    private String percentual_adicional;
+    @Column (name = "percentual_adicional")
+    private float percentualAdicional;
 
     @OneToMany(mappedBy = "categoriaFrete", cascade = CascadeType.ALL)
     private Set<Frete> fretes = new HashSet<>();

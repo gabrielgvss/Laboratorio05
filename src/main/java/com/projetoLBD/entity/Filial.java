@@ -24,7 +24,7 @@ public class Filial implements EntidadeBase {
     private String nome;
 
     @Column
-    private String contato;
+    private String endereco;
 
     @Column(length = 15, nullable = false)
     private String telefone;

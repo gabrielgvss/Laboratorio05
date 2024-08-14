@@ -46,6 +46,7 @@ public @Data class Frete implements EntidadeBase {
 
     }
 
+    // Calculado através das distâncias entre as cidades e categoria do frete
     public BigDecimal calcularFrete() {
         return BigDecimal.valueOf(0); //TEMPORARIO ENQUANTO AINDA NAO SE FINALIZA A MODELAGEM
 

@@ -15,7 +15,10 @@ public @Data class Cliente extends PessoaFisica {
     @Column
     private String contato;
 
-    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+    @Column
+    private Boolean ativo;
+
+    @OneToMany(mappedBy = "cliente")
     private Set<Frete> fretes = new HashSet<>();
 
 }

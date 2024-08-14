@@ -20,4 +20,7 @@ public @Data abstract class PessoaFisica implements EntidadeBase{
     @Column
     private String email;
 
+    @Column
+    private String telefone;
+
 }
