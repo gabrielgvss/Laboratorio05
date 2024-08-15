@@ -172,7 +172,6 @@ public class TesteEntities {
          fr1.setCliente(c1);
          fr1.setNumeroNotaFiscal(1001);
          fr1.setValorKmRodado(BigDecimal.valueOf(1.00));
-         fr1.getItensFrete().add(item1);
          fr2.setCategoriaFrete(cat2);
          fr2.setCidadeOrigem(ci2);
          fr2.setCidadeDestino(ci3);
@@ -180,7 +179,6 @@ public class TesteEntities {
          fr2.setCliente(c2);
          fr2.setNumeroNotaFiscal(1002);
          fr2.setValorKmRodado(BigDecimal.valueOf(1.50));
-         fr2.getItensFrete().add(item2);
          fr3.setCategoriaFrete(cat3);
          fr3.setCidadeOrigem(ci1);
          fr3.setCidadeDestino(ci3);
@@ -188,7 +186,11 @@ public class TesteEntities {
          fr3.setCliente(c3);
          fr3.setNumeroNotaFiscal(1003);
          fr3.setValorKmRodado(BigDecimal.valueOf(2.00));
-         fr3.getItensFrete().add(item3);
+
+         // Associando itens frete com frete
+         item1.setFrete(fr1);
+         item2.setFrete(fr2);
+         item3.setFrete(fr3);
 
          // Persistindo os objetos no banco de dados
          em.persist(f1);

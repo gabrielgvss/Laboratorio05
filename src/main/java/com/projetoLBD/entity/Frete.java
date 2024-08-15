@@ -37,16 +37,13 @@ public @Data class Frete implements EntidadeBase {
     @Column (name = "valor_km_rodado")
     private BigDecimal valorKmRodado;
 
-    @OneToMany(mappedBy = "frete", cascade = CascadeType.ALL, orphanRemoval = true)
-    private Set<ItemFrete> itensFrete = new HashSet<>();
-
     @Override
     public Integer getId() {
         return this.codigo;
 
     }
 
-    // Calculado através das distâncias entre as cidades e categoria do frete
+    // Calculado através das distâncias entre as cidades, valorKmRodado e categoria do frete
     public BigDecimal calcularFrete() {
         return BigDecimal.valueOf(0); //TEMPORARIO ENQUANTO AINDA NAO SE FINALIZA A MODELAGEM
 
