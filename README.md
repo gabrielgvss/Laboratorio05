@@ -27,12 +27,13 @@ O projeto foi modelado com as seguintes entidades e suas associações:
 
 ## Status do Projeto
 
-Atualmente, o projeto está na fase de modelagem das entidades. Os relacionamentos e a estrutura das classes foram definidos, mas ainda precisam ser testados para garantir a integridade e funcionalidade do sistema.
+Atualmente, o projeto está na fase de criação dos repositories.
+
 
 ## Próximos Passos
 
-- **Teste dos Relacionamentos**: Verificar e validar os relacionamentos entre as entidades.
-- **Criação de Repositories e Services**: Implementar a camada de acesso a dados e serviços de negócio.
+- **Conclusão dos repositories**: Conclusão e testagem da implementação dos repositories para as entidades.
+- **Criação de Services**: Implementar os serviços de negócio.
 
 ## Instruções de Uso
 

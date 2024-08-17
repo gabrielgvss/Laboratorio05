@@ -62,12 +62,15 @@ public class TesteEntities {
          c1.setNome("Joao");
          c1.setCpf("213821384");
          c1.setEmail("joao@gmail.com");
+         c1.setAtivo(true);
          c2.setNome("Gabriel");
          c2.setCpf("921382183");
          c2.setEmail("gabriel@gmail.com");
+         c2.setAtivo(true);
          c3.setNome("Maria");
          c3.setCpf("7718218918");
          c3.setEmail("maria@gmail.com");
+         c3.setAtivo(true);
 
          // Criação de dependentes
          Dependente d1 = new Dependente();

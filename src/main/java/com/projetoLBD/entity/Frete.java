@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 @AllArgsConstructor @NoArgsConstructor
@@ -43,10 +44,41 @@ public @Data class Frete implements EntidadeBase {
 
     }
 
-    // Calculado através das distâncias entre as cidades, valorKmRodado e categoria do frete
     public BigDecimal calcularFrete() {
-        return BigDecimal.valueOf(0); //TEMPORARIO ENQUANTO AINDA NAO SE FINALIZA A MODELAGEM
+        Integer distancia = buscaDistancia(this.getCidadeOrigem(), this.getCidadeDestino());
 
+        // Se a distância não for encontrada, retornar BigDecimal.ZERO ou tratar o caso adequadamente
+        if (distancia == null) {
+            return BigDecimal.ZERO;
+        }
+
+        // Obtendo o percentual adicional da categoria de frete
+        float percentualAdicional = this.getCategoriaFrete().getPercentualAdicional();
+
+        // Calculando o valor original do frete
+        BigDecimal valorKmRodado = this.getValorKmRodado();
+        BigDecimal valorOriginal = BigDecimal.valueOf(distancia).multiply(valorKmRodado);
+
+        // Calculando o acréscimo percentual
+        BigDecimal percentual = BigDecimal.valueOf(percentualAdicional).divide(BigDecimal.valueOf(100));
+        BigDecimal valorAcrecimo = valorOriginal.multiply(percentual);
+
+        // Retornando valor mais acréscimo
+        return valorOriginal.add(valorAcrecimo);
     }
+
+    private Integer buscaDistancia(Cidade origem, Cidade destino) {
+        // Navega pelas distâncias de origem e procura a distância para o destino
+        for (Distancia distancia : origem.getDistanciasDeOrigem()) {
+            if (distancia.getCidadeDestino().equals(destino)) {
+                // Retorna a distância em quilômetros
+                return distancia.getQuilometros();
+            }
+        }
+
+        // Se não encontrar a distância, retorna null ou um valor padrão (por exemplo, 0)
+        return null;
+    }
+
 
 }
