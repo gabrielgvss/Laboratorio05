@@ -32,6 +32,9 @@ public @Data class Frete implements EntidadeBase {
     @ManyToOne @JoinColumn(name = "id_cliente")
     private Cliente cliente;
 
+    @ManyToOne @JoinColumn(name = "id_funcionario")
+    private Funcionario funcionario;
+
     @Column(name = "numero_nota_fiscal")
     private Integer numeroNotaFiscal;
 

@@ -22,4 +22,11 @@ public class Funcionario extends PessoaFisica {
     @ManyToOne
     @JoinColumn(name = "filial_id")
     private Filial filial;
+
+    @OneToMany(mappedBy = "funcionario", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Dependente> dependentes = new HashSet<>();
+
+    @OneToMany(mappedBy = "funcionario")
+    private Set<Frete> fretes =  new HashSet<>();
+
 }

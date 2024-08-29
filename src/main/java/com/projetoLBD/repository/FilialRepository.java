@@ -23,19 +23,25 @@ public class FilialRepository {
     }
 
     // Método para listar todas as Filiais com atributos combinados
-    public List<Filial> listarFilials() {
+    public List<Object[]> listarFilials() {
         String jpql = "SELECT f FROM Filial f ";
 
         return daoGenerico.consultar(jpql, Filial.class);
 
     }
 
-    public List<Filial> buscarPorNome(String nome) {
+    public List<Object[]> buscarPorNome(String nome) {
         // JPQL para selecionar os atributos de PessoaFisica e Filial
         String jpql = "SELECT f FROM Filial f " +
                       "WHERE UPPER(f.nome) LIKE :nome";
 
         return daoGenerico.consultar(jpql, Filial.class, "nome", nome.toUpperCase() + "%");
+    }
+
+    // Salva ou atualiza um registro de filial no banco de dados
+    public void salvarOuAtualizar(Filial filial) {
+        daoGenerico.salvaOuAtualiza(filial);
+
     }
 
     // Exclui uma Filial

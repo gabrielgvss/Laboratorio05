@@ -21,11 +21,6 @@ public class FuncionarioRepository {
 
     }
 
-    // Insere um Funcionario no banco
-    public void salvar(Funcionario funcionario) {
-        em.persist(funcionario);
-
-    }
 
     // Método para listar todos os Funcionarios com atributos combinados
     public List listarFuncionarios() {
@@ -39,7 +34,7 @@ public class FuncionarioRepository {
 
     }
 
-    public List<Funcionario> buscarPorNome(String nome) {
+    public List<Object[]> buscarPorNome(String nome) {
         // JPQL para selecionar os atributos de PessoaFisica e Funcionario
         String jpql = "SELECT pf, f " +
                 "FROM PessoaFisica pf " +
@@ -52,7 +47,7 @@ public class FuncionarioRepository {
     }
 
     // Salva ou atualiza um Funcionario
-    public Funcionario salvaOuAtualiza(Funcionario funcionario) {
+    public Funcionario salvarOuAtualizar(Funcionario funcionario) {
         return daoGenerico.salvaOuAtualiza(funcionario);
 
     }

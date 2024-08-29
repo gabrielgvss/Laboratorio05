@@ -175,6 +175,7 @@ public class TesteEntities {
          fr1.setCliente(c1);
          fr1.setNumeroNotaFiscal(1001);
          fr1.setValorKmRodado(BigDecimal.valueOf(1.00));
+         fr1.setFuncionario(func1);
          fr2.setCategoriaFrete(cat2);
          fr2.setCidadeOrigem(ci2);
          fr2.setCidadeDestino(ci3);
@@ -182,6 +183,7 @@ public class TesteEntities {
          fr2.setCliente(c2);
          fr2.setNumeroNotaFiscal(1002);
          fr2.setValorKmRodado(BigDecimal.valueOf(1.50));
+         fr2.setFuncionario(func2);
          fr3.setCategoriaFrete(cat3);
          fr3.setCidadeOrigem(ci1);
          fr3.setCidadeDestino(ci3);
@@ -189,6 +191,12 @@ public class TesteEntities {
          fr3.setCliente(c3);
          fr3.setNumeroNotaFiscal(1003);
          fr3.setValorKmRodado(BigDecimal.valueOf(2.00));
+         fr3.setFuncionario(func3);
+
+         // Inserindo frete para funcionário
+         func1.getFretes().add(fr1);
+         func2.getFretes().add(fr2);
+         func3.getFretes().add(fr3);
 
          // Associando itens frete com frete
          item1.setFrete(fr1);

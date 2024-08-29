@@ -23,7 +23,7 @@ public class VeiculoRepository {
 
 
     // Método para listar Veiculos
-    public List<Veiculo> listarVeiculos() {
+    public List<Object[]> listarVeiculos() {
         // JPQL para selecionar atributos combinados de PessoaFisica e Veiculo
         String jpql = "SELECT v, tv " +
                 "FROM Veiculo v " +
