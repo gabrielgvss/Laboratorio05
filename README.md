@@ -27,13 +27,12 @@ O projeto foi modelado com as seguintes entidades e suas associações:
 
 ## Status do Projeto
 
-Atualmente, o projeto está na fase de criação dos repositories.
+Atualmente, o projeto teve seu código de prototipação concluído, porém carece de testagens.
 
 
 ## Próximos Passos
 
-- **Conclusão dos repositories**: Conclusão e testagem da implementação dos repositories para as entidades.
-- **Criação de Services**: Implementar os serviços de negócio.
+- **Testagem**: FICA A ENCARGO A TESTAGEM DA CAMADA DE REPOSITORY E DO SERVICE
 
 ## Instruções de Uso
 
